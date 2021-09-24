@@ -102,6 +102,7 @@ def log_axis():
 
     plt.subplot(212)
     plt.semilogx(x, y)
+    # plt.yscale('log')
     plt.title('logx axes')
     plt.show()
 
